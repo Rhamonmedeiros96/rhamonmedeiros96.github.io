@@ -83,7 +83,7 @@ next_btn.onclick = () => {
     clearInterval(counterLine); //clear counterLine
     startTimer(timeValue); //calling startTimer function
     startTimerLine(widthValue); //calling startTimerLine function
-    timeText.textContent = "Tempo Restante"; //change the timeText to Time Left
+    timeText.textContent = "Sei schnell"; //change the timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
   } else {
     clearInterval(counter); //clear counter
