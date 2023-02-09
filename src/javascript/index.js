@@ -174,7 +174,7 @@ function showResult() {
     // if user scored more than 3
     //creating a new span tag and passing the user score number and total question number
     let scoreTag =
-      "<span>E parabéns!! 🎉, você fez <p>" +
+      "<span>Score: <p>" +
       userScore * 10 +
       "</p> de <p>" +
       questions.length * 10 +
@@ -183,7 +183,7 @@ function showResult() {
   } else if (userScore > 1) {
     // if user scored more than 1
     let scoreTag =
-      "<span>E legal 😎, você fez  <p>" +
+      "<span>Score:  <p>" +
       userScore * 10 +
       "</p> de <p>" +
       questions.length * 10 +
@@ -192,7 +192,7 @@ function showResult() {
   } else {
     // if user scored less than 1
     let scoreTag =
-      "<span>e desculpe 😐, Você fez apenas <p>" +
+      "<span>Score: <p>" +
       userScore * 10 +
       "</p> de <p>" +
       questions.length * 10 +
