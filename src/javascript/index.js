@@ -214,7 +214,7 @@ function startTimer(time) {
     if (time < 0) {
       //if timer is less than 0
       clearInterval(counter); //clear counter
-      timeText.textContent = "Intervalo"; //change the time text to time off
+      timeText.textContent = "Sei Schnell"; //change the time text to time off
       const allOptions = option_list.children.length; //getting all option items
       let correcAns = questions[que_count].answer; //getting correct answer from array
       for (i = 0; i < allOptions; i++) {
@@ -252,6 +252,6 @@ function queCounter(index) {
     index +
     "</p> de <p>" +
     questions.length +
-    "</p> Questões</span>";
+    "</p> Fragen</span>";
   bottom_ques_counter.innerHTML = totalQueCounTag; //adding new span tag inside bottom_ques_counter
 }
