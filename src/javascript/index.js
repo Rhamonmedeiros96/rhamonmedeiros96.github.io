@@ -60,7 +60,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
 restart_quiz.onclick = () => {
   localStorage.setItem("mostRecentScore", userScore); /*go to the end page*/
-  return window.location.assign("href="https://media.tenor.com/ji_PWO6CsfMAAAAC/muggle-muggles.gif");
+  return window.location.assign(href="https://media.tenor.com/ji_PWO6CsfMAAAAC/muggle-muggles.gif");
 };
 
 // if quitQuiz button clicked
