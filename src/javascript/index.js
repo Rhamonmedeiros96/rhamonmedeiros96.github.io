@@ -60,7 +60,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
 restart_quiz.onclick = () => {
   localStorage.setItem("mostRecentScore", userScore); /*go to the end page*/
-  return window.location.assign(href="presente.html");
+  return window.location.assign(href="./src/presente.html");
 };
 
 // if quitQuiz button clicked
